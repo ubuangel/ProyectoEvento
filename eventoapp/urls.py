@@ -10,7 +10,7 @@ urlpatterns = [
     path('eventounico/<str:eventname>', views.eventosunicos, name='eventosunicos'),
     path('participantes/', views.participantes, name='participantes'),
     path('participantes/<str:eventname>/', views.Detalles_par, name='Detalles_par'),
-    #path('clubs/', views.clubs, name='allclubs')
+    #path('equipos/', views.equipos, name='allclubs')
 
 ]
 # urlpatterns = urlpatterns + static(settings.MEDIA_URL,document_root =settings.MEDIA_ROOT)

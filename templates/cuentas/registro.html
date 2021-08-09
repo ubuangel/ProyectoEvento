@@ -40,7 +40,7 @@
           </button>
           <div class="collapse navbar-collapse row no-gutters" id="navbarSupportedContent">
             <div class="col-lg-4">
-              <img src="{% static 'images/logo.png' %}" alt="" class="logo">
+              <img src="{% static 'images/logounsa.png' %}" alt="" class="logo">
             </div>
             <div class="col-lg-8 d-flex">
               <ul class="navbar-nav ml-auto mb-auto mr-3">
@@ -51,10 +51,10 @@
                   <a class="nav-link" href="{% url 'evento_todos' %}">Eventos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{% if newssingle %}{% url 'newssingle' news_first.newstitle %} {% else %} # {% endif %}">Avisos</a>
+                  <a class="nav-link" href="{% if unicoaviso %}{% url 'unicoaviso' news_first.newstitle %} {% else %} # {% endif %}">Avisos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{% if newssingle %}{% url 'newssingle' news_first.newstitle %} {% else %} # {% endif %}">Noticias</a>
+                  <a class="nav-link" href="{% if unicoaviso %}{% url 'unicoaviso' news_first.newstitle %} {% else %} # {% endif %}">Noticias</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{% url 'todos_equipos_usuarios' %}">Equipos</a>

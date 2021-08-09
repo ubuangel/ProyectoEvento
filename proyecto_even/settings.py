@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'equipo',
     'usuario',
     'avisoConferencia',
+    'principaladmin',
 ]
 
 MIDDLEWARE = [

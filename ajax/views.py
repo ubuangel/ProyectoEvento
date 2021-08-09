@@ -145,10 +145,10 @@ def eviaremail(request):
 
                 send_mail( email_sub, email_msg, email_from, recipient_list,fail_silently=False, auth_user='dc9cfa69b22768', auth_password='b40b2aac7695c3')
         return JsonResponse(data)
-#
+
 # def shownews(request):
 #     data = {}
-#     # data['news'] = Avisos.objects.all()
+#     data['news'] = Avisos.objects.all()
 #     data = serializers.serialize('json', Avisos.objects.all())
 #     return JsonResponse(data)
 
@@ -263,7 +263,7 @@ def activar_equipo(request):
         equipo.save()
         data['nombreequipo'] = equipo.nombreequipo
         data['check'] = True
-        context = Context({"clubs": Equipos.objects.all()})
+        context = Context({"equipos": Equipos.objects.all()})
         template.render(context)
     return JsonResponse(data)
 
@@ -278,6 +278,6 @@ def eliminar_ec(request):
         ec.is_ec = False
         ec.save()
         data['check'] = True
-        # context = context = Context({"clubs": Equipos.objects.all()})
+        # context = context = Context({"equipos": Equipos.objects.all()})
         # template.render(context)
     return JsonResponse(data)

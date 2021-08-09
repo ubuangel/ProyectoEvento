@@ -15,12 +15,12 @@
       </tr>
       {% for news in news_all %}
       <tr scope="row">
-        <td>{{news.created_at}}</td>
+        <td>{{news.creado_en}}</td>
         <td>
-          <h4>{{news.newstitle}}</h4>
-          <p>{{news.description|truncatewords:40}}</p>
+          <h4>{{news.avisotitulo}}</h4>
+          <p>{{news.descripcion|truncatewords:40}}</p>
         </td>
-        <td><a href="{% url 'deletenews' news.id %}"><i class="fas fa-trash text-danger fa-2x"></i></a></td>
+        <td><a href="{% url 'eliminaraviso' news.id %}"><i class="fas fa-trash text-danger fa-2x"></i></a></td>
       </tr>
       {% endfor %}
     </thead>

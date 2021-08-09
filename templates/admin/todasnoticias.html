@@ -20,7 +20,7 @@
           <h4>{{notice.noticetitle}}</h4>
           <p>{{notice.description|truncatewords:40}}</p>
         </td>
-        <td><a href="{% url 'deletenotice' notice.id %}"><i class="fas fa-trash text-danger fa-2x"></i></a></td>
+        <td><a href="{% url 'eliminarnoticia' notice.id %}"><i class="fas fa-trash text-danger fa-2x"></i></a></td>
       </tr>
       {% endfor %}
     </thead>

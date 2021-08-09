@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AvisoconferenciaConfig(AppConfig):
+class PrincipaladminConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'avisoConferencia'
+    name = 'principaladmin'

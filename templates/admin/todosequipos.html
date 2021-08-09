@@ -30,15 +30,15 @@
     <tr class="text-center">
       <th scope="col">#</th>
       <th scope="col">Logo</th>
-      <th scope="col">Club Name</th>
-      <th scope="col">Short Form</th>
+      <th scope="col">Nombre de quipo</th>
+      <th scope="col">Corta Forma</th>
       <th scope="col">Form</th>
       <th scope="col"></th>
     </tr>
   </thead>
   <tbody class="club_tbody">
 
-    {% for club in clubs %}
+    {% for club in equipos %}
     <tr style="{% if not club.is_active %} background-color: #D7D8D9;  {% endif %}">
       <th scope="row" class="text-center align-middle">{{ forloop.counter }}</th>
       <td class="text-center"><img  style="width : 50px; height: auto; " src="{{ MEDIA_URL }}/{{ club.logo.url }}" alt="Not Found"></td>

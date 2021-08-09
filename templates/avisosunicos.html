@@ -78,10 +78,10 @@
                   <a class="nav-link" href="{% url 'evento_todos' %}">Eventos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{% if newssingle %}{% url 'newssingle' news_first.newstitle %} {% else %} # {% endif %}">Avisos</a>
+                  <a class="nav-link" href="{% if unicoaviso %}{% url 'unicoaviso' news_first.avisotitulo %} {% else %} # {% endif %}">Avisos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{% if newssingle %}{% url 'newssingle' news_first.newstitle %} {% else %} # {% endif %}">Noticias</a>
+                  <a class="nav-link" href="{% if unicoaviso %}{% url 'unicoaviso' news_first.avisotitulo %} {% else %} # {% endif %}">Noticias</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{% url 'todos_equipos_usuarios' %}">Equipos</a>
@@ -121,7 +121,7 @@
       <div class="container">
         <div class="row no-gutters">
           <div class="col-md-7">
-            <h3 class="mt-4 d-inline news_title text_justify">{{news.newstitle}}</h3>
+            <h3 class="mt-4 d-inline news_title text_justify">{{news.avisotitulo}}</h3>
             <h6 class="mt-4">Published At: {{news.created_at}}</h6>
             <div class=" mt-3">
               <p class="text_justify">{{news.description}}</p>
@@ -134,7 +134,7 @@
             <h3 class="text-center my-3">Otros avisos</h3>
             <ul style="list-style:none;">
               {% for news_li in all_news %}
-              <li class="bg-secondary my-2 px-1 news_link_li" style="font-size: 18px;"><a href="{% url 'newssingle' news_li.newstitle  %}" class="text-white news_link">{{news_li.newstitle}}</a></li>
+              <li class="bg-secondary my-2 px-1 news_link_li" style="font-size: 18px;"><a href="{% url 'unicoaviso' news_li.avisotitulo  %}" class="text-white news_link">{{news_li.avisotitulo}}</a></li>
               {% endfor %}
             </ul>
 

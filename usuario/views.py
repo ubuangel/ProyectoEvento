@@ -270,7 +270,7 @@ def unicoaviso(request,nombreavisos):
 
 def noticiain(request,noticename):
     context = {}
-    context['notice'] = Noticias.objects.get(noticiatitulo=noticename)
+    context['noticia'] = Noticias.objects.get(noticiatitulo=noticename)
 
     avisos = Avisos.objects.all().order_by('-creado_en')
     noticias = Noticias.objects.all().order_by('-creado_en')

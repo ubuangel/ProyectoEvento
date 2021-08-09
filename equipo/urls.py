@@ -12,7 +12,7 @@ urlpatterns = [
     path('actualizar_email/', views.actualizar_email, name='actualizar_email'),
     path('galeria/', views.galeria, name='actualizar_galeria'),
     path('actualizar_description/', views.actualizar_description, name='actualizar_description'),
-    #path('clubs/', views.clubs, name='allclubs'),
+    #path('equipos/', views.equipos, name='allclubs'),
 
 ]
 urlpatterns = urlpatterns + static(settings.MEDIA_URL,document_root =settings.MEDIA_ROOT)

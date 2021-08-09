@@ -44,7 +44,7 @@
           </button>
           <div class="collapse navbar-collapse row no-gutters" id="navbarSupportedContent">
             <div class="col-lg-4">
-              <img src="{% static 'images/logo.png' %}" alt="" class="logo">
+              <img src="{% static 'images/logounsa.png' %}" alt="" class="logo">
             </div>
             <div class="col-lg-8 d-flex">
               <ul class="navbar-nav ml-auto mb-auto mr-3">
@@ -55,10 +55,10 @@
                   <a class="nav-link" href="{% url 'evento_todos' %}">Eventos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{% if newssingle %}{% url 'newssingle' news_first.newstitle %} {% else %} # {% endif %}">Avisos</a>
+                  <a class="nav-link" href="{% if unicoaviso %}{% url 'unicoaviso' news_first.avisotitulo %} {% else %} # {% endif %}">Avisos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{% if newssingle %}{% url 'newssingle' news_first.newstitle %} {% else %} # {% endif %}">Noticias</a>
+                  <a class="nav-link" href="{% if unicoaviso %}{% url 'unicoaviso' news_first.avisotitulo %} {% else %} # {% endif %}">Noticias</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{% url 'todos_equipos_usuarios' %}">Equipos</a>
@@ -83,7 +83,7 @@
         <div class="row">
           <div class="col-md-8">
             <ul class="list-inline custom-breadcrumb">
-              <li class="list-inline-item"><a class="h2 page_title_name" href="#">Home</a></li>
+              <li class="list-inline-item"><a class="h2 page_title_name" href="#">Introduccion</a></li>
               <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
             </ul>
             <p class="text-lighten">Si das pescado a un hombre hambriento lo nutres durante una jornada. Si le enseñas a pescar, le nutrirás toda su vida. Lao Tsé.
@@ -101,18 +101,18 @@ Fuente: https://frases.top/frases-celebres/ (Protegido bajo Licencia Creative Co
           <div class="col-md-5 news_notice_sec_container" id="news_section">
             <h4 class="text-center news_notice_title">Avisos</h4>
             <!-- Individual News Start -->
-            {% for news_single in news %}
+            {% for news_single in avisos %}
             <div class="row no-gutters news_notice_sec">
               <div class="col-sm-2 d-flex align-items-center">
                 <div class="data_time_sec">
-                  <h4 class="text-center">{{news_single.created_at|date:"d"}}</h4>
-                  <h4 class="text-center">{{news_single.created_at|date:"M"}}</h4>
+                  <h4 class="text-center">{{news_single.creado_en|date:"d"}}</h4>
+                  <h4 class="text-center">{{news_single.creado_en|date:"M"}}</h4>
                 </div>
               </div>
               <div class="col-sm-10 news_notice_content">
-                <h4>{{news_single.newstitle|truncatechars:20}}</h4>
-                <p>{{news_single.description|truncatechars:60}}</p>
-                <a href="{% url 'newssingle' news_single.newstitle %}" class="continue_reading_btn">Sigue leyendo...</a>
+                <h4>{{news_single.avisotitulo|truncatechars:20}}</h4>
+                <p>{{news_single.descripcion|truncatechars:60}}</p>
+                <a href="{% url 'unicoaviso' news_single.avisotitulo %}" class="continue_reading_btn">Sigue leyendo...</a>
               </div>
             </div>
             {% endfor %}
@@ -121,21 +121,21 @@ Fuente: https://frases.top/frases-celebres/ (Protegido bajo Licencia Creative Co
           <div class="col-md-1 middle_border_1"></div>
           <div class="col-md-1 middle_border_2"></div>
           <div class="col-md-5  news_notice_sec_container">
-            <h4 class="text-center news_notice_title">Notices</h4>
+            <h4 class="text-center news_notice_title">Noticias</h4>
 
             <!-- Individual Notice Start -->
-            {% for notice in notices %}
+            {% for noticia in noticias %}
             <div class="row no-gutters news_notice_sec">
               <div class="col-sm-2 d-flex align-items-center">
                 <div class="data_time_sec">
-                  <h4 class="text-center">{{notice.created_at|date:"d"}}</h4>
-                  <h4 class="text-center">{{notice.created_at|date:"M"}}</h4>
+                  <h4 class="text-center">{{noticia.creado_en|date:"d"}}</h4>
+                  <h4 class="text-center">{{noticia.creado_en|date:"M"}}</h4>
                 </div>
               </div>
               <div class="col-sm-10 news_notice_content">
-                <h4>{{notice.noticetitle|truncatechars:20}}</h4>
-                <p>{{notice.description|truncatechars:60}}</p>
-                <a href="{% url 'noticeingle' notice.noticetitle %}" class="continue_reading_btn">Continue Reading...</a>
+                <h4>{{noticia.noticiatitulo|truncatechars:20}}</h4>
+                <p>{{noticia.descripcion|truncatechars:60}}</p>
+                <a href="{% url 'noticiain' noticia.noticiatitulo %}" class="continue_reading_btn">Continue Reading...</a>
               </div>
             </div>
             {% endfor %}
