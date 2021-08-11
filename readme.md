@@ -29,7 +29,7 @@
 <li> Pueden registrar a los estudiantes que estén interesados en participar en este evento </li> 
 	</ul>
 	</li>
-	<li>Los estudiantes pueden ver todos los eventos y también pueden ver los detalles de este evento y pueden registrarlos para participar en un evento en particular./li>
+	<li>Los estudiantes pueden ver todos los eventos y también pueden ver los detalles de este evento y pueden registrarlos para participar en un evento en particular.</li>
 	<li>La administración principal . Pueden crear un equipo, agregar un miembro ejecutivo de un equipo, remover a un ejecutivo de un equipo y actualizar las noticias y avisos y el calendario académico de la universidad.</li>
 
 </ol>
