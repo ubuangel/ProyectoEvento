@@ -130,7 +130,7 @@ Este es accedido por el administrador general
 
 <h3> 3.4 Interfaz  </h3>
 <p> Para esta aplicación se necesita un servidor que aloje nuestra web </p>
-<h2> Apéndice A: Modelos de análisis: </h2>
+
 
 
 
