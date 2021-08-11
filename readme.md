@@ -1,4 +1,12 @@
-![Captura de pantalla de 2021-08-11 08-28-15](https://user-images.githubusercontent.com/49200646/129038677-f7c06689-dc55-47b1-a667-528300edcea7.png)
+![Captura de pantalla de 2021-08-11 08-28-15](https://user-images.githubusercontent.com/49200646/129038835-ff4cca94-4054-46dc-9dd6-960beeeea9f0.png)
+![Captura de pantalla de 2021-08-11 08-27-25](https://user-images.githubusercontent.com/49200646/129038849-7bc1669b-f23b-4334-aa39-b6fdc5d15ccb.png)
+![Captura de pantalla de 2021-08-09 11-37-37](https://user-images.githubusercontent.com/49200646/129038854-552242c1-8ce8-4166-9812-d51630a1aa73.png)
+![Captura de pantalla de 2021-08-09 11-36-03](https://user-images.githubusercontent.com/49200646/129038857-b979536b-4639-43a5-8912-dbfc211c4395.png)
+![Captura de pantalla de 2021-08-09 11-37-51](https://user-images.githubusercontent.com/49200646/129038860-ba7bb4c2-72ed-4c00-9b19-dd51e938f1c1.png)
+![Captura de pantalla de 2021-08-09 11-37-54](https://user-images.githubusercontent.com/49200646/129038864-d9b5d1b3-da34-438b-acb5-1771c1b8f7d9.png)
+![Captura de pantalla de 2021-08-09 11-37-56](https://user-images.githubusercontent.com/49200646/129038872-ae43792f-329d-4cf8-a374-e0c2511f377a.png)
+![Captura de pantalla de 2021-08-09 11-37-59](https://user-images.githubusercontent.com/49200646/129038877-3e3a6463-b058-4fa1-a8ba-2fa4f5e25f32.png)
+
 <h1>Administrador Eventos Conferencias</h1>
 <center><h2>1. Introduction</h2></center>
 <h3><u>1.1 Proposito</u></h3>
