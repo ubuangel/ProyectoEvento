@@ -15,7 +15,7 @@
 <h3>Requerimientos funcionales:</h3>
 <ol>
 	<li>
-	El sistema tendrá cinco tipos de usuario.
+	El sistema tendrá  tipos de usuario.
 		<ul>
 			<li>Estudiantes</li>
 			<li>Equipo</li>
