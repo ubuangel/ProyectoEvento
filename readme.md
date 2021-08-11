@@ -108,13 +108,13 @@ Este es accedido por el administrador general
 <p>scree1</p>
 
 
-<h5>23)El usario puede ver las noticias
+<h5>12)El usario puede ver las noticias
 
 </h5>
 <p>scree1</p>
 
 
-<h5>24) Los usuarios pueden ver los avisos
+<h5>13) Los usuarios pueden ver los avisos
 </h5>
 
 
