@@ -126,7 +126,7 @@ Este es accedido por el administrador general
 <h3> 3.3 Software </h3>
 <p> Para ejecutar esta aplicación, necesitamos un navegador web. Para ejecutar localmente, se necesita Django, interfaz de línea de comandos y base de datos MySQL. </p>
 
-<h3> 3.4 Interfaz de comunicaciones </h3>
+<h3> 3.4 Interfaz  </h3>
 <p> Para esta aplicación se necesita un servidor que aloje nuestra web </p>
 <h2> Apéndice A: Modelos de análisis: </h2>
 
