@@ -1,13 +1,7 @@
-![Captura de pantalla de 2021-08-11 08-28-15](https://user-images.githubusercontent.com/49200646/129038835-ff4cca94-4054-46dc-9dd6-960beeeea9f0.png)
 
-![Captura de pantalla de 2021-08-11 08-27-25](https://user-images.githubusercontent.com/49200646/129039249-aea79d18-1576-4c20-abd1-5c33453fc61e.png)
 
-![Captura de pantalla de 2021-08-09 11-37-37](https://user-images.githubusercontent.com/49200646/129038854-552242c1-8ce8-4166-9812-d51630a1aa73.png)
-![Captura de pantalla de 2021-08-09 11-36-03](https://user-images.githubusercontent.com/49200646/129038857-b979536b-4639-43a5-8912-dbfc211c4395.png)
-![Captura de pantalla de 2021-08-09 11-37-51](https://user-images.githubusercontent.com/49200646/129038860-ba7bb4c2-72ed-4c00-9b19-dd51e938f1c1.png)
-![Captura de pantalla de 2021-08-09 11-37-54](https://user-images.githubusercontent.com/49200646/129038864-d9b5d1b3-da34-438b-acb5-1771c1b8f7d9.png)
-![Captura de pantalla de 2021-08-09 11-37-56](https://user-images.githubusercontent.com/49200646/129038872-ae43792f-329d-4cf8-a374-e0c2511f377a.png)
-![Captura de pantalla de 2021-08-09 11-37-59](https://user-images.githubusercontent.com/49200646/129038877-3e3a6463-b058-4fa1-a8ba-2fa4f5e25f32.png)
+
+
 
 <h1>Administrador Eventos Conferencias</h1>
 <center><h2>1. Introduction</h2></center>
@@ -64,22 +58,22 @@
 
 <h5>Los estudiantes pueden registrarse en esta plataforma dando la siguiente información. Esto es necesario para aquellos estudiantes que estén dispuestos a ser miembros ejecutivos de cualquier equipo. No es necesario para el usuario general.</h5>
 
-<p>scree1</p>
+
 
 <h5>1) Panel de administracion del login:</h5>
 
-<p>scree1</p>
-
+![Captura de pantalla de 2021-08-11 08-27-25](https://user-images.githubusercontent.com/49200646/129039249-aea79d18-1576-4c20-abd1-5c33453fc61e.png)
 <h5>2)  Dashboard de admin<br>
 
 Este es accedido por el administrador general
 </h5>
 
-<p>scree1</p>
+
+![Captura de pantalla de 2021-08-09 11-37-37](https://user-images.githubusercontent.com/49200646/129038854-552242c1-8ce8-4166-9812-d51630a1aa73.png)
 
 
 <h5>3) El  administrador puede agregar avisos recientes.</h5>
-<p>scree1</p>
+
 
 
 <h5>4) El administrador puede agregar noticias recientes</h5>
@@ -87,42 +81,39 @@ Este es accedido por el administrador general
 
 
 <h5>5) El admin puede ver todas las noticias agregadas y puede eliminar las noticias innecesarias.</h5>
-<p>scree1</p>
+
 
 <h5>6)Puede ver todos los avisos añadidos y puede eliminar los avisos antiguos</h5>
-<p>scree1</p>
+
 
 
 <h5>7)Puede agregar nuevo equipo</h5>
-<p>scree1</p>
+
+![Captura de pantalla de 2021-08-09 11-37-51](https://user-images.githubusercontent.com/49200646/129038860-ba7bb4c2-72ed-4c00-9b19-dd51e938f1c1.png)
 
 <h5>8)Se puede ver todos los equipos de la universidad.</h5>
-<p>scree1</p>
+
+![Captura de pantalla de 2021-08-09 11-37-56](https://user-images.githubusercontent.com/49200646/129038872-ae43792f-329d-4cf8-a374-e0c2511f377a.png)
 
 
 
 
-<h5>9) La autoridad universitaria puede agregar un miembro ejecutivo de cada equipo.
 
-</h5>
-<p>scree1</p>
+<h5>9) La autoridad universitaria puede agregar un miembro ejecutivo de cada equipo.</h5>
 
 
-<h5> 10) La autoridad puede cambiar un ejecutivo eliminando este ejecutivo y agregando un nuevo ejecutivo. </h5> 
+<h5> 10) La autoridad puede cambiar un administrador  eliminando este ejecutivo y agregando un nuevo ejecutivo. </h5> 
 
 <h5>11) El admin pude agregar un calendario academico</h5>
-<p>scree1</p>
 
-<h5>Crea un evento<br>
 
 </h5>
-<p>scree1</p>
+
 
 
 <h5>12)El usario puede ver las noticias
 
 </h5>
-<p>scree1</p>
 
 
 <h5>13) Los usuarios pueden ver los avisos
@@ -145,5 +136,3 @@ Este es accedido por el administrador general
 
 
 
-*Proyecto Evento*
-![Captura de pantalla de 2021-08-07 12-42-05](https://user-images.githubusercontent.com/49200646/128609997-483ee9d8-7701-4f03-81df-d1dbcf84317b.png)
