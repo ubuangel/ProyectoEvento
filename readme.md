@@ -1,5 +1,7 @@
 ![Captura de pantalla de 2021-08-11 08-28-15](https://user-images.githubusercontent.com/49200646/129038835-ff4cca94-4054-46dc-9dd6-960beeeea9f0.png)
-![Captura de pantalla de 2021-08-11 08-27-25](https://user-images.githubusercontent.com/49200646/129038849-7bc1669b-f23b-4334-aa39-b6fdc5d15ccb.png)
+
+![Captura de pantalla de 2021-08-11 08-27-25](https://user-images.githubusercontent.com/49200646/129039249-aea79d18-1576-4c20-abd1-5c33453fc61e.png)
+
 ![Captura de pantalla de 2021-08-09 11-37-37](https://user-images.githubusercontent.com/49200646/129038854-552242c1-8ce8-4166-9812-d51630a1aa73.png)
 ![Captura de pantalla de 2021-08-09 11-36-03](https://user-images.githubusercontent.com/49200646/129038857-b979536b-4639-43a5-8912-dbfc211c4395.png)
 ![Captura de pantalla de 2021-08-09 11-37-51](https://user-images.githubusercontent.com/49200646/129038860-ba7bb4c2-72ed-4c00-9b19-dd51e938f1c1.png)
